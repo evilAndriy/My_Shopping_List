@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My ShoppingList</string>
+    <string name="settings"> Settings </string>
+    <string name="notes"> Notes </string>
+    <string name="shop_list"> Shop list </string>
+    <string name="neew_item"> New </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="save">Save</string>
+    <string name="bold">Bold</string>
+    <string name="color">Color</string>
+    <string name="list_name">List name</string>
+    <string name="new_name">New list name</string>
+    <string name="delete_alert">Delete</string>
+    <string name="delete_item">Do you want delete this item?</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="new_item">New item</string>
+    <string name="empty">Empty</string>
+    <string name="update_list">Update List item</string>
+    <string name="name">Name</string>
+    <string name="item_info">item info</string>
+    <string name="general">General</string>
+    <string name="chose_note_style">Chose note Style</string>
+    <string name="chose_time_format">Chose time format</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="remove_ads_summary">Remove all ads from this app</string>
+    <string name="chose_theme">Chose Theme</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="note_text_settings">Chose text size</string>
+    <string name="title_text_size">Title text size</string>
+    <string name="content_text_size">Content text size</string>
+    <string name="inter_ad_id">ca-app-pub-3940256099942544/1044960115</string>
+</resources>

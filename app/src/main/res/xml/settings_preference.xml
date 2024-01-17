@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/general">
+
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="Linear"
+            app:icon="@drawable/ic_theme"
+            android:key="note_style_key"
+            android:title="@string/chose_note_style"
+            app:entries="@array/note_style_array"
+            app:entryValues="@array/note_style_values"
+            app:useSimpleSummaryProvider="true"/>
+        <!--      <ListPreference
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:defaultValue="hh:mm:ss - yyyy/MM/dd"
+                android:icon="@drawable/ic_timer"
+                android:key="time_format_key"
+                android:title="@string/chose_time_format"
+                app:entries="@array/time_format_array"
+                app:entryValues="@array/time_format_values"
+                app:useSimpleSummaryProvider="true"/> -->
+            <!--    <Preference
+                       android:icon="@drawable/ic_remove_ads"
+                       android:summary="@string/remove_ads_summary"
+                       android:title="@string/remove_ads"
+                       app:useSimpleSummaryProvider="true"
+                       android:key="remove_ads_key"/>
+                       -->
+           </PreferenceCategory>
+           <PreferenceCategory
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:title="@string/theme_settings">
+
+               <ListPreference
+                   android:icon="@drawable/ic_style_24"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:defaultValue="green light"
+                   android:title="@string/chose_theme"
+                   app:entries="@array/chose_theme_array"
+                   app:entryValues="@array/chose_theme_values"
+                   app:useSimpleSummaryProvider="true"
+                   android:key="theme_key"
+                   />
+           </PreferenceCategory>
+           <PreferenceCategory
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:title="Preference category">
+
+               <ListPreference
+                   android:key="title_size_key"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:defaultValue="16"
+                   android:title="@string/title_text_size"
+                   app:entries="@array/text_size_array"
+                   app:entryValues="@array/text_size_values"
+                   app:icon="@drawable/ic_text"
+                   app:useSimpleSummaryProvider="true"/>
+               <ListPreference
+                   android:key="content_size_key"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:defaultValue="14"
+                   android:title="@string/content_text_size"
+                   app:entries="@array/text_size_array"
+                   app:entryValues="@array/text_size_values"
+                   app:icon="@drawable/ic_text"
+                   app:useSimpleSummaryProvider="true"/>
+           </PreferenceCategory>
+       </PreferenceScreen>
